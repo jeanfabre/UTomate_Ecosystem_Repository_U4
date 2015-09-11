@@ -6,7 +6,7 @@
 //
 
 
-/*--- __ECO__ __UTACTION__
+/*--- __UTOMATE__ __UTACTION__
 EcoMetaStart
 {
 "script dependancies":[
