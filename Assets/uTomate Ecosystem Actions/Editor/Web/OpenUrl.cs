@@ -10,7 +10,7 @@
 EcoMetaStart
 {
 "script dependancies":[
-						"Assets/uTomate Ecosystem Actions/Editor/OpenUrlInspector.cs"
+						"Assets/uTomate Ecosystem Actions/Editor/Web/OpenUrlInspector.cs"
 					]
 }
 EcoMetaEnd
