@@ -36,13 +36,13 @@ namespace Ecosystem.Utomate
 		
 		[MenuItem("Assets/Create/uTomate/Run/Execute Menu Item", false)]
 		public static void AddAction() {
-			Create<UTExecuteMenuItemAction>();
+			Create<ExecuteMenuItem>();
 		}
 	}
 
 
 	[CustomEditor(typeof(ExecuteMenuItem))]
-	public class UTExecuteMenuItemActionEditor : UTInspectorBase {}
+	public class ExecuteMenuItemEditor : UTInspectorBase {}
 
 }
 
