@@ -49,7 +49,7 @@ namespace Ecosystem.Utomate
 			yield return "";
 		}
 		
-		[MenuItem("Assets/Create/uTomate/Files + Folders/Copy File", false)]
+		[MenuItem("Assets/Create/uTomate/Files + Folders/Find And Replace In Text File", false)]
 		public static void AddAction() {
 			Create<FindAndReplaceInTextFile>();
 		}
