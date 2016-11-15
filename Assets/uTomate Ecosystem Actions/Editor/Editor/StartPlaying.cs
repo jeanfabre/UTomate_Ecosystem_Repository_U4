@@ -21,7 +21,7 @@ namespace Ecosystem.Utomate
 {
 
 	[UTActionInfo(actionCategory = "Editor", sinceUTomateVersion="1.8.0")]
-	[UTDoc(title="Play Current Scene", description="Starts Playing the current Scene")]
+	[UTDoc(title="Start Playing", description="Starts Playing the current Scene")]
 	[UTDefaultAction]
 	/// <summary>
 	/// Action that starts playing.
