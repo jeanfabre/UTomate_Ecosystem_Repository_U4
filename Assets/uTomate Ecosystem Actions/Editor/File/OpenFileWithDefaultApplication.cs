@@ -21,7 +21,10 @@ using System.IO;
 using UnityEngine;
 using UnityEditor;
 using System.Collections;
-
+#if UNITY_5
+using AncientLightStudios.uTomate.API;
+using AncientLightStudios.uTomate;
+#endif
 
 namespace Ecosystem.Utomate
 {

@@ -7,6 +7,10 @@
 
 using System;
 using UnityEditor;
+#if UNITY_5
+using AncientLightStudios.uTomate.API;
+using AncientLightStudios.uTomate;
+#endif
 
 namespace Ecosystem.Utomate
 {
