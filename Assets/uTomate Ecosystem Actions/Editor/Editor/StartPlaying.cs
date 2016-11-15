@@ -13,12 +13,14 @@ using System.IO;
 using UnityEngine;
 using UnityEditor;
 using System.Collections;
-
-
+#if UNITY_5
+using AncientLightStudios.uTomate.API;
+using AncientLightStudios.uTomate;
+#endif
 namespace Ecosystem.Utomate
 {
 
-	[UTActionInfo(actionCategory = "Editor", sinceUTomateVersion="1.2.0")]
+	[UTActionInfo(actionCategory = "Editor", sinceUTomateVersion="1.8.0")]
 	[UTDoc(title="Play Current Scene", description="Starts Playing the current Scene")]
 	[UTDefaultAction]
 	/// <summary>
